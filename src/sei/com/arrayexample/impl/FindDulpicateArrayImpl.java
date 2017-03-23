@@ -59,11 +59,6 @@ public class FindDulpicateArrayImpl implements IFindDulpicateArray {
 			}
 		}
 		
-		//you can return this array if we want if there is hard core need to return arrays otherwise i will prefer return set
-		/*int actualIntArray[] = {};
-		//converting set of object into array of primitive using java 8 streams
-		actualIntArray = arraySet.stream().mapToInt(i -> i).toArray();*/
-		
 		return arraySet;
 	}
 	
@@ -92,11 +87,6 @@ public class FindDulpicateArrayImpl implements IFindDulpicateArray {
 				} 
 			}
 		}
-		
-		//you can return this array if we want if there is hard core need to return arrays otherwise i will prefer return set
-		/*int actualIntArray[] = {};
-		//converting set of object into array of primitive using java 8 streams
-		actualIntArray = arraySet.stream().mapToInt(i -> i).toArray();*/
 		
 		return arraySet;
 	}
